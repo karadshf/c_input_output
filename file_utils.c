@@ -14,7 +14,7 @@ int read_file( char* filename, char **buffer ) {
 	int i = 0;
 
 	
-	//buffer = malloc(size * sizeof(char));
+	buffer = malloc(1000 * size * sizeof(char));
 	
 	while((c=fgetc(file))!=EOF){
 		printf("%c",c);
