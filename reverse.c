@@ -1,3 +1,14 @@
+/*
+Farid Karadsheh
+September 22nd, 2017
+CIS 343-01
+Grand Valley State University
+
+Purpose: Read the contents of a text file, and print out the contents in reverse.
+
+Associated files: file_utils.c, file_utils.h
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "file_utils.h"
